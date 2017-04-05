@@ -10,13 +10,21 @@ def readme():
         return f.read()
 
 
-setup(name='mapscas',
-      version='0.1',
-      description='MAPS CAS API Package',
-      url='https://github.com/wtjch/mapscas',
-      author='Wesley Jinks',
-      author_email='c-wesley.jinks@charter.com',
-      license='Proprietary',
-      packages=find_packages(),
-      include_package_data=True,
-      zip_safe=False)
+setup(
+    name="mapscas",
+    version="0.1",
+
+    packages=find_packages('src'),
+    package_dir={'':'src'},
+    package_data={
+        '': ['*.dfa', '*.llr', '*.pyd']
+    },
+    zip_safe=False,
+
+    # Metadata for PyPI
+    author="Wesley Jinks",
+    author_email="c-wesley.jinks@charter.com",
+    description="MAPS CAS API Package",
+    url="https://github.com/wtjch/mapscas",
+    license="Proprietary"
+    )

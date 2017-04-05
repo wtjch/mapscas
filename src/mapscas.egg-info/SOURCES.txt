@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+src/mapcas/MapsCasApi.py
+src/mapcas/MapsClientParser.dfa
+src/mapcas/MapsClientParser.llr
+src/mapcas/MapsGenericApi.py
+src/mapcas/PythonMapsCliIfc.pyd
+src/mapcas/__init__.py
+src/mapscas.egg-info/PKG-INFO
+src/mapscas.egg-info/SOURCES.txt
+src/mapscas.egg-info/dependency_links.txt
+src/mapscas.egg-info/not-zip-safe
+src/mapscas.egg-info/top_level.txt
