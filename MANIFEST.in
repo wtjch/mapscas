@@ -1,0 +1,3 @@
+include README.rst
+include mapscas/MapsClientParser.dfa
+include mapscas/MapsClientParser.llr
