@@ -1,3 +1,3 @@
 include README.rst
-include mapscas/MapsClientParser.dfa
-include mapscas/MapsClientParser.llr
+include src/mapscas/parsers/MapsClientParser.dfa
+include src/mapscas/parsers/MapsClientParser.llr
