@@ -13,7 +13,7 @@ def readme():
 
 setup(
     name="mapscas",
-    version="0.1.2",
+    version="0.1.5",
 
     include_package_data=True,
     packages=find_packages('src'),
@@ -21,7 +21,7 @@ setup(
     #package_data={'': ['*.dfa', '*.llr', '*.pyd']},
     zip_safe=False,
 
-    data_files=[('../../Scripts', ['src/parsers/MapsClientParser.dfa', 'src/parsers/MapsClientParser.llr'])],
+    data_files=[(path.dirname(path.dirname(path.dirname(__file__)))+'./Scripts', ['src/parsers/MapsClientParser.dfa', 'src/parsers/MapsClientParser.llr'])],
 
     # Metadata for PyPI
     author="Wesley Jinks",
